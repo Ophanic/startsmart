@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "supabase:types": "npx supabase@latest gen types typescript --local > supabase/functions/_lib/database.ts"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.1.1",
